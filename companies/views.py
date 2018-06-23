@@ -19,3 +19,4 @@ class StockList(APIView):
         return Response(serializer.data)
 
     def post(self):
+        pass
